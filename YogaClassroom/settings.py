@@ -64,7 +64,7 @@ REST_FRAMEWORK = {
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'templates']
+        'DIRS': [BASE_DIR / 'templates', 'frontend']
         ,
         'APP_DIRS': True,
         'OPTIONS': {
@@ -129,6 +129,9 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = BASE_DIR / 'staticfiles'
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'templates' 'frontend', "build", "static"),  # update the STATICFILES_DIRS
+)
 
 # The URL to use when referring to static files (where they will be served from)
 
