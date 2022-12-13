@@ -127,7 +127,7 @@ export const Form = (props) => {
                     }}>{errorMsg}</Alert>)}
                 </Collapse>
                 <Typography variant='h4' component='h4'>
-                    Join Our Yoga Classes Today For Just 500rs !!
+                    Kindly Register for Rs 500 to join us @FlexyYoga
                 </Typography>
             </Grid>
             <Grid item xs={12} align="center">

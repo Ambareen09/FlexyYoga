@@ -76,7 +76,7 @@ export const PayFees = () => {
                     }}>{errorMsg}</Alert>)}
                 </Collapse>
                 <Typography variant='h4' component='h4'>
-                    Pay your fees
+                    Pay fees
                 </Typography>
             </Grid>
             <Grid item xs={12} align="center">
@@ -88,8 +88,7 @@ export const PayFees = () => {
                            variant='outlined' disabled={true}/>
             </Grid>
             <Grid item xs={12} align="center">
-                <Button variant='contained' color='primary' onClick={checkStatus}>Please first your fees status from
-                    here</Button>
+                <Button variant='contained' color='primary' onClick={checkStatus}>Check your fee status</Button>
             </Grid>
             <Grid item xs={12} align="center">
                 <Button variant='contained' color='primary' onClick={completePayment}>Pay</Button>

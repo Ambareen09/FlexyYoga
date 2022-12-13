@@ -25,12 +25,11 @@ function renderHomePage() {
         <Grid container spacing={3} align='center'>
             <Grid item xs={12}>
                 <Typography variant='h3' component='h3'>
-                    Kindly Choose your desired option for the Yoga Classes presented by FlexMoney
+                    Kindly Choose your desired option for the Yoga Classes presented by FlexyYoga
                 </Typography>
             </Grid>
-            <Grid item xs={12}>
             
-                <ButtonGroup variant='contained' color='primary'>
+                <ButtonGroup variant='contained' color='primary' class="a">
                     <Button color='secondary' to='/pay-fees' component={Link}>
                         Do you want to Pay monthly fee?
                     </Button>
@@ -41,7 +40,6 @@ function renderHomePage() {
                         Want change your batch timing?
                     </Button>
                 </ButtonGroup>
-            </Grid>
         </Grid>
     );
 }
